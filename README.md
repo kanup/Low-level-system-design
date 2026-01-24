@@ -1,6 +1,5 @@
-# Low-level-system-design
 
-# 🏗️ System Design Practice Repository
+# 🏗️ Low Level System Design Practice Repository
 
 > **A comprehensive collection of Low Level Design (LLD) problems solved with clean code, design patterns, and scalable architecture principles.**
 
