@@ -9,7 +9,7 @@ import java.util.UUID;
 public class Ticket {
     private final String ticketId;
     private long checkinTime;
-    private LocalDateTime checkoutTime;
+    private long checkoutTime;
     private final Vehicle vehicle;
     private final ParkingSpot spot;
 
@@ -20,5 +20,21 @@ public class Ticket {
         this.spot = spot;
         this.checkinTime = System.currentTimeMillis();
 
+    }
+
+    public long getCheckoutTime() {
+        return checkoutTime;
+    }
+
+    public void setCheckoutTime(long checkoutTime) {
+        this.checkoutTime = checkoutTime;
+    }
+
+    public long getCheckinTime() {
+        return checkinTime;
+    }
+
+    public Vehicle getVehicle() {
+        return vehicle;
     }
 }

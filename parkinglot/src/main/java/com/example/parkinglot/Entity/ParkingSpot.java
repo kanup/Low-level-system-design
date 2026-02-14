@@ -1,11 +1,13 @@
 package com.example.parkinglot.Entity;
 
+import java.util.UUID;
+
 public class ParkingSpot {
     private final String spotId;
     private boolean isFree = true;
 
-    public ParkingSpot(String spotId) {
-        this.spotId = spotId;
+    public ParkingSpot() {
+        this.spotId = UUID.randomUUID().toString();
 
     }
 
